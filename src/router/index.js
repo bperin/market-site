@@ -10,57 +10,56 @@ import Signin from "../views/Signin.vue";
 
 const routes = [
   {
-    path: "/",
-    name: "/",
-    redirect: "/dashboard-default",
+    path: '/',
+    name: '/',
+    component: Dashboard
   },
   {
-    path: "/dashboard-default",
-    name: "Dashboard",
-    component: Dashboard,
+    path: '/dashboard-default',
+    name: 'Dashboard',
+    component: Dashboard
   },
   {
-    path: "/tables",
-    name: "Tables",
-    component: Tables,
+    path: '/tables',
+    name: 'Tables',
+    component: Tables
   },
   {
-    path: "/billing",
-    name: "Billing",
-    component: Billing,
+    path: '/billing',
+    name: 'Billing',
+    component: Billing
   },
   {
-    path: "/virtual-reality",
-    name: "Virtual Reality",
-    component: VirtualReality,
+    path: '/virtual-reality',
+    name: 'Virtual Reality',
+    component: VirtualReality
   },
   {
-    path: "/rtl-page",
-    name: "RTL",
-    component: RTL,
+    path: '/rtl-page',
+    name: 'RTL',
+    component: RTL
   },
   {
-    path: "/profile",
-    name: "Profile",
-    component: Profile,
+    path: '/profile',
+    name: 'Profile',
+    component: Profile
   },
   {
-    path: "/signin",
-    name: "Signin",
-    component: Signin,
+    path: '/signin',
+    name: 'Signin',
+    component: Signin
   },
   {
-    path: "/signup",
-    name: "Signup",
-    component: Signup,
-  },
-  
-];
+    path: '/signup',
+    name: 'Signup',
+    component: Signup
+  }
+]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
-  linkActiveClass: "active",
-});
+  linkActiveClass: 'active'
+})
 
 export default router;

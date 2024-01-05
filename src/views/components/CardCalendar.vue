@@ -25,13 +25,7 @@
         </h6>
       </div>
     </div>
-    <a
-      href="javascript:;"
-      class="py-1 text-center bg-gray-100 w-100"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="Show More"
-    >
+    <a href="javascript:;" class="py-1 text-center bg-gray-100 w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="Show More">
       <i class="fas fa-chevron-down text-primary"></i>
     </a>
   </div>
@@ -39,6 +33,6 @@
 
 <script>
 export default {
-  name: "card-calendar",
-};
+  name: 'card-calendar'
+}
 </script>

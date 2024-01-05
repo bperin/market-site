@@ -9,13 +9,13 @@
 
 <script>
 export default {
-  name: "argon-switch",
+  name: 'argon-switch',
   props: {
     name: String,
     id: String,
     checked: String,
     labelClass: String,
-    inputClass: String,
-  },
-};
+    inputClass: String
+  }
+}
 </script>

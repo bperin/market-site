@@ -9,11 +9,11 @@
 
 <script>
 export default {
-  name: "argon-radio",
+  name: 'argon-radio',
   props: {
     name: String,
     id: String,
-    checked: String,
-  },
-};
+    checked: String
+  }
+}
 </script>

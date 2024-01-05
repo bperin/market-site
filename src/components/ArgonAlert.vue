@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="alert text-white font-weight-bold"
-    role="alert"
-    :class="getClasses(color, dismissible)"
-  >
+  <div class="alert text-white font-weight-bold" role="alert" :class="getClasses(color, dismissible)">
     <span class="alert-icon">
       <i :class="getIcon(icon)" />
     </span>
@@ -11,13 +7,7 @@
       &nbsp;
       <slot />
     </span>
-    <button
-      v-if="dismissible"
-      type="button"
-      class="btn-close d-flex justify-content-center align-items-center"
-      data-bs-dismiss="alert"
-      aria-label="Close"
-    >
+    <button v-if="dismissible" type="button" class="btn-close d-flex justify-content-center align-items-center" data-bs-dismiss="alert" aria-label="Close">
       <span aria-hidden="true" class="text-lg font-weight-bold">&times;</span>
     </button>
   </div>
@@ -25,29 +15,29 @@
 
 <script>
 export default {
-  name: "argon-alert",
+  name: 'argon-alert',
   props: {
     color: {
       type: String,
-      default: "success",
+      default: 'success'
     },
     icon: String,
     dismissible: {
       type: Boolean,
-      default: false,
-    },
+      default: false
+    }
   },
   methods: {
     getClasses: (color, dismissible) => {
-      let colorValue, dismissibleValue;
+      let colorValue, dismissibleValue
 
-      colorValue = color ? `alert-${color}` : null;
+      colorValue = color ? `alert-${color}` : null
 
-      dismissibleValue = dismissible ? "alert-dismissible fade show" : null;
+      dismissibleValue = dismissible ? 'alert-dismissible fade show' : null
 
-      return `${colorValue} ${dismissibleValue}`;
+      return `${colorValue} ${dismissibleValue}`
     },
-    getIcon: (icon) => (icon ? icon : null),
-  },
-};
+    getIcon: (icon) => (icon ? icon : null)
+  }
+}
 </script>

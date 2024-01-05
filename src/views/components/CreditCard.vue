@@ -33,6 +33,6 @@
 
 <script>
 export default {
-  name: "credit-card",
-};
+  name: 'credit-card'
+}
 </script>

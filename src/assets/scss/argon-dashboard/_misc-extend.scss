@@ -18,8 +18,7 @@
     -ms-transition: all 0.4s ease-in-out;
 
     &:hover {
-      transform: scale(1) perspective(2000px) rotateY(-15deg) rotateX(0deg)
-        rotate(0deg);
+      transform: scale(1) perspective(2000px) rotateY(-15deg) rotateX(0deg) rotate(0deg);
     }
   }
 
@@ -178,7 +177,7 @@
 .text-border {
   &:after,
   &:before {
-    content: "";
+    content: '';
     display: $text-border-display;
     width: $text-border-width;
     height: $text-border-height;
@@ -277,7 +276,7 @@ round-slider.scaling:hover {
     }
 
     .navbar-nav {
-      > .nav-item .nav-link[data-bs-toggle="collapse"].active {
+      > .nav-item .nav-link[data-bs-toggle='collapse'].active {
         background-color: rgba(246, 249, 252, 0.25) !important;
         box-shadow: none !important;
       }
@@ -301,7 +300,7 @@ round-slider.scaling:hover {
         .nav-link {
           color: $white !important;
 
-          &[data-bs-toggle="collapse"]:after {
+          &[data-bs-toggle='collapse']:after {
             color: $white;
           }
         }

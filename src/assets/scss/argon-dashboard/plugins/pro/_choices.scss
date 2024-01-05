@@ -20,8 +20,8 @@
   background-color: #eaeaea;
   cursor: not-allowed;
   -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .choices.is-disabled .choices__item {
@@ -64,7 +64,8 @@
   opacity: 0.5;
 }
 
-.choices[data-type*='select-one'] .choices__button:hover, .choices[data-type*='select-one'] .choices__button:focus {
+.choices[data-type*='select-one'] .choices__button:hover,
+.choices[data-type*='select-one'] .choices__button:focus {
   opacity: 1;
 }
 
@@ -77,7 +78,7 @@
 }
 
 .choices[data-type*='select-one']:after {
-  content: "\f107";
+  content: '\f107';
   font: normal normal normal 14px/1 FontAwesome;
   position: absolute;
   right: 13.5px;
@@ -116,7 +117,7 @@
   margin-bottom: 0;
   margin-left: 8px;
   padding-left: 17px;
-  border-left: 1px solid rgba($white, .3);
+  border-left: 1px solid rgba($white, 0.3);
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yLjU5Mi4wNDRsMTguMzY0IDE4LjM2NC0yLjU0OCAyLjU0OEwuMDQ0IDIuNTkyeiIvPjxwYXRoIGQ9Ik0wIDE4LjM2NEwxOC4zNjQgMGwyLjU0OCAyLjU0OEwyLjU0OCAyMC45MTJ6Ii8+PC9nPjwvc3ZnPg==);
   background-size: 8px;
   width: 8px;
@@ -126,7 +127,8 @@
   transition: $transition-base;
 }
 
-.choices[data-type*='select-multiple'] .choices__button:hover, .choices[data-type*='select-multiple'] .choices__button:focus,
+.choices[data-type*='select-multiple'] .choices__button:hover,
+.choices[data-type*='select-multiple'] .choices__button:focus,
 .choices[data-type*='text'] .choices__button:hover,
 .choices[data-type*='text'] .choices__button:focus {
   opacity: 1;
@@ -140,7 +142,7 @@
   background-color: #fff;
   padding: $input-padding-y $input-padding-x;
   border: 1px solid $input-border-color;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: 14px;
   min-height: 40px;
   overflow: hidden;
@@ -263,7 +265,9 @@
   padding: $dropdown-item-padding-y $dropdown-item-padding-x;
   @include font-size($dropdown-font-size);
   border-radius: $border-radius-md;
-  transition: background-color $dropdown-transition-time, color $dropdown-transition-time;
+  transition:
+    background-color $dropdown-transition-time,
+    color $dropdown-transition-time;
 }
 
 [dir='rtl'] .choices__list--dropdown .choices__item {
@@ -314,8 +318,8 @@
 .choices__item--disabled {
   cursor: not-allowed;
   -webkit-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   opacity: 0.5;
 }
 
@@ -331,7 +335,7 @@
   text-indent: -9999px;
   -webkit-appearance: none;
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   border: 0;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -370,14 +374,13 @@
 
 /*=====  End of Choices  ======*/
 
-
 ///////////// Creative Tim Changes
 
-.is-open .choices__inner{
+.is-open .choices__inner {
   border-radius: $choices-border-radius;
 }
 
-.choices__list--dropdown{
+.choices__list--dropdown {
   display: block;
   opacity: 0;
   top: 19px;
@@ -385,7 +388,7 @@
   pointer-events: none;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  will-change: transform,box-shadow;
+  will-change: transform, box-shadow;
   border: none;
   border-radius: $choices-border-radius;
   box-shadow: $choices-box-shadow;
@@ -393,7 +396,7 @@
   padding: $choices-padding-y $choices-padding-x;
   transition: $choices-transition;
 
-  &.is-active{
+  &.is-active {
     transform: $dropdown-transform-show;
     opacity: 1;
     display: block;
@@ -405,8 +408,8 @@
   }
 
   &:before {
-    font-family: "FontAwesome";
-    content: "\f0d8";
+    font-family: 'FontAwesome';
+    content: '\f0d8';
     position: absolute;
     top: 0;
     left: $dropdown-animation-arrow-left-position;
@@ -417,17 +420,17 @@
   }
 }
 
-.choices[data-type*=select-one] .choices__input{
+.choices[data-type*='select-one'] .choices__input {
   border-bottom-color: $gray-100;
 }
 
-.choices__list--dropdown .choices__item--selectable.is-highlighted{
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
   background: $dropdown-link-hover-bg;
   color: $dropdown-link-hover-color;
 }
 
 .is-focused .choices__inner,
-.is-open .choices__inner{
+.is-open .choices__inner {
   box-shadow: $input-focus-box-shadow;
   border-color: $input-focus-border-color;
 }
@@ -440,7 +443,5 @@
     background-color: $value;
   }
 }
-
-
 
 /////////////

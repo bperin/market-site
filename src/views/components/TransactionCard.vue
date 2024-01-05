@@ -14,16 +14,9 @@
     <div class="card-body pt-4 p-3">
       <h6 class="text-uppercase text-body text-xs font-weight-bolder mb-3">Newest</h6>
       <ul class="list-group">
-        <li
-          class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg"
-        >
+        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
           <div class="d-flex align-items-center">
-            <argon-button
-              color="danger"
-              variant="outline"
-              size="sm"
-              class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center"
-            >
+            <argon-button color="danger" variant="outline" size="sm" class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center">
               <i class="fas fa-arrow-down" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
@@ -31,20 +24,11 @@
               <span class="text-xs">27 March 2020, at 12:30 PM</span>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold"
-          >- $ 2,500</div>
+          <div class="d-flex align-items-center text-danger text-gradient text-sm font-weight-bold">- $ 2,500</div>
         </li>
-        <li
-          class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg"
-        >
+        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
           <div class="d-flex align-items-center">
-            <argon-button
-              color="success"
-              variant="outline"
-              size="sm"
-              class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center"
-            >
+            <argon-button color="success" variant="outline" size="sm" class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center">
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
@@ -52,23 +36,14 @@
               <span class="text-xs">27 March 2020, at 04:30 AM</span>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold"
-          >+ $ 2,000</div>
+          <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">+ $ 2,000</div>
         </li>
       </ul>
       <h6 class="text-uppercase text-body text-xs font-weight-bolder my-3">Yesterday</h6>
       <ul class="list-group">
-        <li
-          class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg"
-        >
+        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
           <div class="d-flex align-items-center">
-            <argon-button
-              color="success"
-              variant="outline"
-              size="sm"
-              class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center"
-            >
+            <argon-button color="success" variant="outline" size="sm" class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center">
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
@@ -76,20 +51,11 @@
               <span class="text-xs">26 March 2020, at 13:45 PM</span>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold"
-          >+ $ 750</div>
+          <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">+ $ 750</div>
         </li>
-        <li
-          class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg"
-        >
+        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
           <div class="d-flex align-items-center">
-            <argon-button
-              color="success"
-              variant="outline"
-              size="sm"
-              class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center"
-            >
+            <argon-button color="success" variant="outline" size="sm" class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center">
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
@@ -97,20 +63,11 @@
               <span class="text-xs">26 March 2020, at 12:30 PM</span>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold"
-          >+ $ 1,000</div>
+          <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">+ $ 1,000</div>
         </li>
-        <li
-          class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg"
-        >
+        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
           <div class="d-flex align-items-center">
-            <argon-button
-              color="success"
-              variant="outline"
-              size="sm"
-              class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center"
-            >
+            <argon-button color="success" variant="outline" size="sm" class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center">
               <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
@@ -118,20 +75,11 @@
               <span class="text-xs">26 March 2020, at 08:30 AM</span>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold"
-          >+ $ 2,500</div>
+          <div class="d-flex align-items-center text-success text-gradient text-sm font-weight-bold">+ $ 2,500</div>
         </li>
-        <li
-          class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg"
-        >
+        <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
           <div class="d-flex align-items-center">
-            <argon-button
-              color="dark"
-              variant="outline"
-              size="sm"
-              class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center"
-            >
+            <argon-button color="dark" variant="outline" size="sm" class="btn-icon-only btn-rounded mb-0 me-3 d-flex align-items-center justify-content-center">
               <i class="fas fa-exclamation" aria-hidden="true"></i>
             </argon-button>
             <div class="d-flex flex-column">
@@ -147,12 +95,12 @@
 </template>
 
 <script>
-import ArgonButton from "@/components/ArgonButton.vue";
+import ArgonButton from '@/components/ArgonButton.vue'
 
 export default {
-  name: "transaction-card",
+  name: 'transaction-card',
   components: {
-    ArgonButton,
-  },
-};
+    ArgonButton
+  }
+}
 </script>

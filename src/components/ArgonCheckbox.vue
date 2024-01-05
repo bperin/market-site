@@ -9,11 +9,11 @@
 
 <script>
 export default {
-  name: "argon-checkbox",
+  name: 'argon-checkbox',
   props: {
     name: String,
     id: String,
-    checked: String,
-  },
-};
+    checked: String
+  }
+}
 </script>

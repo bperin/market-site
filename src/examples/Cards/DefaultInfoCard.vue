@@ -1,10 +1,7 @@
 <template>
   <div class="card">
     <div class="p-3 mx-4 text-center card-header">
-      <div
-        :class="icon_bg"
-        class="icon icon-shape icon-lg bg-gradient-success shadow text-center border-radius-lg"
-      >
+      <div :class="icon_bg" class="icon icon-shape icon-lg bg-gradient-success shadow text-center border-radius-lg">
         <i class="opacity-10" :class="classIcon" aria-hidden="true"></i>
       </div>
     </div>
@@ -19,19 +16,19 @@
 
 <script>
 export default {
-  name: "default-info-card",
+  name: 'default-info-card',
   props: {
     icon_bg: {
       type: String,
-      default: "bg-white",
+      default: 'bg-white'
     },
     classIcon: {
       type: String,
-      required: true,
+      required: true
     },
     title: String,
     desc: String,
-    price: String,
-  },
-};
+    price: String
+  }
+}
 </script>

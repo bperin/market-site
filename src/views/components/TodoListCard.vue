@@ -56,6 +56,6 @@
 
 <script>
 export default {
-  name: "todo-list-card",
-};
+  name: 'todo-list-card'
+}
 </script>

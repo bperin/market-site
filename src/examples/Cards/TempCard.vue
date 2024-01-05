@@ -12,79 +12,61 @@
 </template>
 
 <script>
-import { CountUp } from "countup.js";
+import { CountUp } from 'countup.js'
 
 export default {
-  name: "temperature-card",
-  props: ["status", "unit", "title", "desc", "id"],
+  name: 'temperature-card',
+  props: ['status', 'unit', 'title', 'desc', 'id'],
   mounted() {
     // Count To
-    if (document.getElementById("status1")) {
-      const countUp = new CountUp(
-        "status1",
-        document.getElementById("status1").getAttribute("countTo")
-      );
+    if (document.getElementById('status1')) {
+      const countUp = new CountUp('status1', document.getElementById('status1').getAttribute('countTo'))
       if (!countUp.error) {
-        countUp.start();
+        countUp.start()
       } else {
-        console.error(countUp.error);
+        console.error(countUp.error)
       }
     }
-    if (document.getElementById("status2")) {
-      const countUp = new CountUp(
-        "status2",
-        document.getElementById("status2").getAttribute("countTo")
-      );
+    if (document.getElementById('status2')) {
+      const countUp = new CountUp('status2', document.getElementById('status2').getAttribute('countTo'))
       if (!countUp.error) {
-        countUp.start();
+        countUp.start()
       } else {
-        console.error(countUp.error);
+        console.error(countUp.error)
       }
     }
-    if (document.getElementById("status3")) {
-      const countUp = new CountUp(
-        "status3",
-        document.getElementById("status3").getAttribute("countTo")
-      );
+    if (document.getElementById('status3')) {
+      const countUp = new CountUp('status3', document.getElementById('status3').getAttribute('countTo'))
       if (!countUp.error) {
-        countUp.start();
+        countUp.start()
       } else {
-        console.error(countUp.error);
+        console.error(countUp.error)
       }
     }
-    if (document.getElementById("status4")) {
-      const countUp = new CountUp(
-        "status4",
-        document.getElementById("status4").getAttribute("countTo")
-      );
+    if (document.getElementById('status4')) {
+      const countUp = new CountUp('status4', document.getElementById('status4').getAttribute('countTo'))
       if (!countUp.error) {
-        countUp.start();
+        countUp.start()
       } else {
-        console.error(countUp.error);
+        console.error(countUp.error)
       }
     }
-    if (document.getElementById("status5")) {
-      const countUp = new CountUp(
-        "status5",
-        document.getElementById("status5").getAttribute("countTo")
-      );
+    if (document.getElementById('status5')) {
+      const countUp = new CountUp('status5', document.getElementById('status5').getAttribute('countTo'))
       if (!countUp.error) {
-        countUp.start();
+        countUp.start()
       } else {
-        console.error(countUp.error);
+        console.error(countUp.error)
       }
     }
-    if (document.getElementById("status6")) {
-      const countUp = new CountUp(
-        "status6",
-        document.getElementById("status6").getAttribute("countTo")
-      );
+    if (document.getElementById('status6')) {
+      const countUp = new CountUp('status6', document.getElementById('status6').getAttribute('countTo'))
       if (!countUp.error) {
-        countUp.start();
+        countUp.start()
       } else {
-        console.error(countUp.error);
+        console.error(countUp.error)
       }
     }
-  },
-};
+  }
+}
 </script>

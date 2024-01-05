@@ -6,32 +6,32 @@
 
 <script>
 export default {
-  name: "argon-avatar",
+  name: 'argon-avatar',
   props: {
     img: String,
     alt: String,
     size: String,
     shadow: String,
     borderRadius: String,
-    circular: Boolean,
+    circular: Boolean
   },
   methods: {
     getSize: (size) => (size ? `avatar-${size}` : null),
     getClasses: (shadow, circular, borderRadius) => {
-      let shadowValue, circularValue, borderRadiusValue;
+      let shadowValue, circularValue, borderRadiusValue
 
       if (shadow) {
-        shadowValue = shadow === "regular" ? "shadow" : `shadow-${shadow}`;
+        shadowValue = shadow === 'regular' ? 'shadow' : `shadow-${shadow}`
       } else {
-        shadowValue = null;
+        shadowValue = null
       }
 
-      circularValue = circular ? "rounded-circle" : null;
+      circularValue = circular ? 'rounded-circle' : null
 
-      borderRadiusValue = borderRadius ? `border-radius-${borderRadius}` : null;
+      borderRadiusValue = borderRadius ? `border-radius-${borderRadius}` : null
 
-      return `${shadowValue} ${circularValue} ${borderRadiusValue}`;
-    },
-  },
-};
+      return `${shadowValue} ${circularValue} ${borderRadiusValue}`
+    }
+  }
+}
 </script>

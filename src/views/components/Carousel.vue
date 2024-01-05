@@ -5,7 +5,6 @@
         <div
           class="carousel-item h-100 active"
           :style="{
-          
             backgroundSize: 'cover'
           }"
         >
@@ -29,10 +28,7 @@
               <i class="ni ni-bulb-61 text-dark opacity-10"></i>
             </div>
             <h5 class="text-white mb-1">Faster way to create web pages</h5>
-            <p>
-              That’s my skill. I’m not really specifically talented at anything except for the
-              ability to learn.
-            </p>
+            <p>That’s my skill. I’m not really specifically talented at anything except for the ability to learn.</p>
           </div>
         </div>
         <div
@@ -51,21 +47,11 @@
           </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev w-5 me-3"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
+      <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button
-        class="carousel-control-next w-5 me-3"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
+      <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>

@@ -10,35 +10,35 @@
 
 <script>
 export default {
-  name: "argon-pagination-item",
+  name: 'argon-pagination-item',
   props: {
     label: String,
     active: {
       type: Boolean,
-      default: false,
+      default: false
     },
     disabled: {
       type: Boolean,
-      default: false,
+      default: false
     },
     prev: {
       type: Boolean,
-      default: false,
+      default: false
     },
     next: {
       type: Boolean,
-      default: false,
-    },
+      default: false
+    }
   },
   methods: {
     getClasses: (active, disabled) => {
-      let activeValue, disabledValue;
+      let activeValue, disabledValue
 
-      activeValue = active ? "active" : null;
-      disabledValue = disabled ? "disabled" : null;
+      activeValue = active ? 'active' : null
+      disabledValue = disabled ? 'disabled' : null
 
-      return `${activeValue} ${disabledValue}`;
-    },
-  },
-};
+      return `${activeValue} ${disabledValue}`
+    }
+  }
+}
 </script>

@@ -4,12 +4,7 @@
       <div class="mb-4 d-flex">
         <p class="mb-0">{{ state }}</p>
         <div class="form-check form-switch ms-auto">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            id="flexSwitchCheckHumidity"
-            :checked="isChecked"
-          />
+          <input class="form-check-input" type="checkbox" id="flexSwitchCheckHumidity" :checked="isChecked" />
         </div>
       </div>
       <slot name="icon" />
@@ -21,7 +16,7 @@
 
 <script>
 export default {
-  name: "switch-card",
-  props: ["state", "stateText", "stateDescription", "isChecked", "classCustom"],
-};
+  name: 'switch-card',
+  props: ['state', 'stateText', 'stateDescription', 'isChecked', 'classCustom']
+}
 </script>

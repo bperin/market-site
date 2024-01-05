@@ -6,11 +6,7 @@
         {{ title }}
       </span>
       <small :class="getTextColor(color)">{{ date }}</small>
-      <i
-        class="fas fa-times text-md ms-3 cursor-pointer"
-        :class="getTextColor(color)"
-        @click="closeHandler"
-      />
+      <i class="fas fa-times text-md ms-3 cursor-pointer" :class="getTextColor(color)" @click="closeHandler" />
     </div>
     <hr class="horizontal dark m-0" :class="getHrColor(color)" />
     <div class="toast-body" :class="getTextColor(color)">{{ description }}</div>

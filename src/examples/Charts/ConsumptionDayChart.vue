@@ -10,41 +10,41 @@
 </template>
 
 <script>
-import Chart from "chart.js/auto";
+import Chart from 'chart.js/auto'
 export default {
-  name: "comsumption-by-day-chart",
+  name: 'comsumption-by-day-chart',
   mounted() {
     // Chart Consumption by day
-    var ctx = document.getElementById("chart-cons-week").getContext("2d");
+    var ctx = document.getElementById('chart-cons-week').getContext('2d')
 
     new Chart(ctx, {
-      type: "bar",
+      type: 'bar',
       data: {
-        labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
         datasets: [
           {
-            label: "Watts",
+            label: 'Watts',
             tension: 0.4,
             borderWidth: 0,
             borderRadius: 4,
             borderSkipped: false,
-            backgroundColor: "#3A416F",
+            backgroundColor: '#3A416F',
             data: [150, 230, 380, 220, 420, 200, 70],
-            maxBarThickness: 6,
-          },
-        ],
+            maxBarThickness: 6
+          }
+        ]
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
           legend: {
-            display: false,
-          },
+            display: false
+          }
         },
         interaction: {
           intersect: false,
-          mode: "index",
+          mode: 'index'
         },
         scales: {
           y: {
@@ -52,28 +52,28 @@ export default {
               drawBorder: false,
               display: false,
               drawOnChartArea: false,
-              drawTicks: false,
+              drawTicks: false
             },
             ticks: {
-              display: false,
-            },
+              display: false
+            }
           },
           x: {
             grid: {
               drawBorder: false,
               display: false,
               drawOnChartArea: false,
-              drawTicks: false,
+              drawTicks: false
             },
             ticks: {
               beginAtZero: true,
               font: {
                 size: 12,
-                family: "Open Sans",
-                style: "normal",
+                family: 'Open Sans',
+                style: 'normal'
               },
-              color: "#9ca2b7",
-            },
+              color: '#9ca2b7'
+            }
           },
           // eslint-disable-next-line no-dupe-keys
           y: {
@@ -82,13 +82,13 @@ export default {
               display: false,
               drawOnChartArea: true,
               drawTicks: false,
-              borderDash: [5, 5],
+              borderDash: [5, 5]
             },
             ticks: {
               display: true,
               padding: 10,
-              color: "#9ca2b7",
-            },
+              color: '#9ca2b7'
+            }
           },
           // eslint-disable-next-line no-dupe-keys
           x: {
@@ -97,17 +97,17 @@ export default {
               display: true,
               drawOnChartArea: true,
               drawTicks: false,
-              borderDash: [5, 5],
+              borderDash: [5, 5]
             },
             ticks: {
               display: true,
               padding: 10,
-              color: "#9ca2b7",
-            },
-          },
-        },
-      },
-    });
-  },
-};
+              color: '#9ca2b7'
+            }
+          }
+        }
+      }
+    })
+  }
+}
 </script>

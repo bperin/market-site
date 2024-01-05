@@ -4,16 +4,7 @@
       <span v-if="iconDir === 'left'" class="input-group-text">
         <i :class="getIcon(icon)"></i>
       </span>
-      <input
-        :type="type"
-        class="form-control"
-        :class="getClasses(size, valid)"
-        :name="name"
-        :id="id"
-        :value="value"
-        :placeholder="placeholder"
-        :isRequired="isRequired"
-      />
+      <input :type="type" class="form-control" :class="getClasses(size, valid)" :name="name" :id="id" :value="value" :placeholder="placeholder" :isRequired="isRequired" />
       <span v-if="iconDir === 'right'" class="input-group-text">
         <i :class="getIcon(icon)"></i>
       </span>
@@ -23,15 +14,15 @@
 
 <script>
 export default {
-  name: "argon-input",
+  name: 'argon-input',
   props: {
     size: {
       type: String,
-      default: "default",
+      default: 'default'
     },
     valid: {
       type: Boolean,
-      default: false,
+      default: false
     },
     icon: String,
     iconDir: String,
@@ -40,20 +31,20 @@ export default {
     value: String,
     placeholder: String,
     type: String,
-    isRequired: Boolean,
+    isRequired: Boolean
   },
   methods: {
     getClasses: (size, valid) => {
-      let sizeValue, isValidValue;
+      let sizeValue, isValidValue
 
-      sizeValue = size ? `form-control-${size}` : null;
+      sizeValue = size ? `form-control-${size}` : null
 
-      isValidValue = valid ? `${valid}` : "invalid";
+      isValidValue = valid ? `${valid}` : 'invalid'
 
-      return `${sizeValue} ${isValidValue}`;
+      return `${sizeValue} ${isValidValue}`
     },
     getIcon: (icon) => (icon ? icon : null),
-    hasIcon: (icon) => (icon ? "input-group" : null),
-  },
-};
+    hasIcon: (icon) => (icon ? 'input-group' : null)
+  }
+}
 </script>

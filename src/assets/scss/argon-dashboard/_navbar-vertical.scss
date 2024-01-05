@@ -77,14 +77,13 @@
             height: $navbar-vertical-inner;
           }
           // Container
-          > [class*="container"] {
+          > [class*='container'] {
             flex-direction: column;
             align-items: stretch;
             min-height: 100%;
             padding-left: 0;
             padding-right: 0; // Target IE 10 & 11
-            @media all and (-ms-high-contrast: none),
-              (-ms-high-contrast: active) {
+            @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
               min-height: none;
               height: 100%;
             }
@@ -141,7 +140,7 @@
 
           .lavalamp-object {
             width: calc(100% - 1rem) !important;
-            background: theme-color("primary");
+            background: theme-color('primary');
             color: color-yiq($primary);
             margin-right: 0.5rem;
             margin-left: 0.5rem;
@@ -168,13 +167,9 @@
 .sidenav {
   // Define colors
   @each $color, $value in $theme-colors {
-    &[data-color="#{$color}"] {
+    &[data-color='#{$color}'] {
       .navbar-nav > .nav-item > .nav-link.active {
-        @include gradient-directional(
-          nth(#{$value}, 1) 0%,
-          nth(#{$value}, -1) 100%,
-          $deg: 310deg
-        );
+        @include gradient-directional(nth(#{$value}, 1) 0%, nth(#{$value}, -1) 100%, $deg: 310deg);
 
         .icon i,
         .nav-link-text {
@@ -322,35 +317,36 @@
 }
 
 .navbar-main {
-  transition: box-shadow $transition-base-time ease-in,
+  transition:
+    box-shadow $transition-base-time ease-in,
     background-color $transition-base-time ease-in;
 
   &.fixed-top {
     width: calc(100% - (#{$navbar-vertical-open-width} + #{$spacer * 1.5} * 3));
   }
 
-  &.fixed-top + [class*="container"] {
+  &.fixed-top + [class*='container'] {
     margin-top: 7.1875rem !important;
   }
 }
 // Navbar Vertical Extend
 .navbar-vertical {
-  .navbar-nav .nav-link[data-bs-toggle="collapse"] {
+  .navbar-nav .nav-link[data-bs-toggle='collapse'] {
     &:after {
       display: inline-block;
       font-style: normal;
       font-variant: normal;
       text-rendering: auto;
       -webkit-font-smoothing: antialiased;
-      font-family: "Font Awesome 5 Free";
+      font-family: 'Font Awesome 5 Free';
       font-weight: 700;
-      content: "\f107";
+      content: '\f107';
       margin-left: auto;
       color: rgba($dark-gradient-state, 0.5);
       @include transition($transition-base);
     }
     // Expanded
-    &[aria-expanded="true"] {
+    &[aria-expanded='true'] {
       &:after {
         color: $dark-gradient-state;
         transform: rotate(180deg);
@@ -435,7 +431,7 @@
         .nav-link {
           color: $white;
 
-          &[data-bs-toggle="collapse"]:after {
+          &[data-bs-toggle='collapse']:after {
             color: $white;
           }
         }
@@ -552,8 +548,8 @@
             opacity: 1;
           }
 
-          &[data-bs-toggle="collapse"]:after {
-            content: "";
+          &[data-bs-toggle='collapse']:after {
+            content: '';
           }
         }
 
@@ -570,8 +566,8 @@
                   content: none;
                 }
 
-                &[data-bs-toggle="collapse"]:after {
-                  content: "\f107";
+                &[data-bs-toggle='collapse']:after {
+                  content: '\f107';
                 }
               }
             }
@@ -618,8 +614,8 @@
               min-width: 0;
             }
 
-            &[data-bs-toggle="collapse"]:after {
-              content: "\f107";
+            &[data-bs-toggle='collapse']:after {
+              content: '\f107';
             }
           }
 
@@ -632,7 +628,7 @@
                   margin-left: $navbar-vertical-collapse-margin-left;
 
                   &:before {
-                    content: "";
+                    content: '';
                   }
                 }
 

@@ -12,35 +12,35 @@
 
 <script>
 export default {
-  name: "argon-socialButton",
+  name: 'argon-socialButton',
   props: {
     icon: String,
     iconOnly: String,
     socialBtn: String,
     rounded: {
       type: Boolean,
-      default: false,
+      default: false
     },
     size: {
       type: String,
-      default: "default",
-    },
+      default: 'default'
+    }
   },
   methods: {
     getClasses: (iconOnly, socialBtn, rounded, size) => {
-      let iconOnlyValue, socialBtnValue, roundedValue, sizeValue;
+      let iconOnlyValue, socialBtnValue, roundedValue, sizeValue
 
-      iconOnlyValue = iconOnly ? "btn-icon-only" : null;
+      iconOnlyValue = iconOnly ? 'btn-icon-only' : null
 
-      socialBtnValue = socialBtn ? `btn-${socialBtn}` : null;
+      socialBtnValue = socialBtn ? `btn-${socialBtn}` : null
 
-      roundedValue = rounded ? "rounded-circle" : null;
+      roundedValue = rounded ? 'rounded-circle' : null
 
-      sizeValue = size ? `btn-${size}` : null;
+      sizeValue = size ? `btn-${size}` : null
 
-      return `${iconOnlyValue} ${socialBtnValue} ${roundedValue} ${sizeValue}`;
+      return `${iconOnlyValue} ${socialBtnValue} ${roundedValue} ${sizeValue}`
     },
-    getIcon: (icon) => (icon ? icon : null),
-  },
-};
+    getIcon: (icon) => (icon ? icon : null)
+  }
+}
 </script>

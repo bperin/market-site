@@ -3,15 +3,7 @@
     <div class="card-body">
       <div class="d-flex">
         <p class="mb-0">Emails (21)</p>
-        <a
-          href="javascript:;"
-          class="ms-auto"
-          data-bs-toggle="tooltip"
-          data-bs-placement="top"
-          title="Check your emails"
-        >
-          Check
-        </a>
+        <a href="javascript:;" class="ms-auto" data-bs-toggle="tooltip" data-bs-placement="top" title="Check your emails"> Check </a>
       </div>
     </div>
   </div>
@@ -19,6 +11,6 @@
 
 <script>
 export default {
-  name: "card-email",
-};
+  name: 'card-email'
+}
 </script>

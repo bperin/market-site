@@ -6,6 +6,7 @@ import ArgonDashboard from './argon-dashboard'
 
 import './assets/css/nucleo-icons.css'
 import './assets/css/nucleo-svg.css'
+import 'vue-connect-wallet/dist/style.css'
 
 const appInstance = createApp(App)
 appInstance.use(createPinia())

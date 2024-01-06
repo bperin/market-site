@@ -53,6 +53,7 @@
 <script>
 import SidenavItem from './SidenavItem.vue'
 import SidenavCard from './SidenavCard.vue'
+import { ConnectWalletButton } from "vue-connect-wallet";
 
 export default {
   name: 'SidenavList',

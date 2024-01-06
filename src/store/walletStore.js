@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia'
 
-export const useAuthStore = defineStore('walletStore', {
+export const useWalletStore = defineStore('walletStore', {
   state: () => ({
-    walltedConneted: false,
-    publicAddress: null
+    connected: false,
+    address: null
   })
 })

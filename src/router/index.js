@@ -13,6 +13,11 @@ const routes = [
     component: Dashboard
   },
   {
+    path: '/dashboard-default',
+    name: '/Dashboard',
+    component: Dashboard
+  },
+  {
     path: '/tables',
     name: 'Tables',
     component: Tables

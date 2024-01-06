@@ -23,7 +23,7 @@ export default {
   },
 
   mounted() {
-    ;(function () {
+    (function () {
       const container = document.getElementById('globe')
       const canvas = container.getElementsByTagName('canvas')[0]
 

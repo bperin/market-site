@@ -1,11 +1,12 @@
 <template>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg top-0 z-index-3 position-absolute mt-4 shadow-none my-2 navbar-transparent w-100">
+  <nav class="navbar navbar-expand-lg top-0 z-index-3 position-absolute mt-4 shadow-none my-2 w-100">
     <div class="container ps-2 pe-0">
       <router-link class="navbar-brand font-weight-bolder ms-lg-0 ms-3 text-white" to="/">Main</router-link>
+
       <button class="shadow-none navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="mt-2 navbar-toggler-icon">
-          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar1">test</span>
           <span class="navbar-toggler-bar bar2"></span>
           <span class="navbar-toggler-bar bar3"></span>
         </span>
@@ -37,11 +38,6 @@
             </router-link>
           </li>
         </ul>
-        <ul class="navbar-nav d-lg-block d-none">
-          <li class="nav-item">
-            <a href="https://www.creative-tim.com/product/vue-argon-dashboard" class="btn btn-sm mb-0 me-1" :class="isBtn">Free download</a>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
@@ -66,15 +62,18 @@ export default {
     isBtn: { type: String, default: 'bg-gradient-light' },
     darkMode: {
       type: Boolean,
-      default: false
+      default: true
     }
   },
   computed: {
     darkModes() {
       return {
-        'text-dark': this.darkMode
+        'text-dark': false
       }
     }
+  },
+  components(){
+   
   }
 }
 </script>

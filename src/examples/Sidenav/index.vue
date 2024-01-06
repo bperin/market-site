@@ -1,10 +1,10 @@
 <template>
-  <div v-show="this.$store.state.layout === 'default'" class="min-height-300 position-absolute w-100 bg-primary bg-secondary" />
+  <div class="min-height-300 position-absolute w-100 bg-primary bg-secondary" />
   <aside class="my-3 overflow-auto border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl fixed-start ms-3 bg-gradient-primary" id="sidenav-main">
     <div class="sidenav-header">
       <i class="top-0 p-3 cursor-pointer fas fa-times text-secondary opacity-5 position-absolute end-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <router-link class="m-0 navbar-brand" to="/">
-        <img :src="this.$store.state.darkMode || this.$store.state.sidebarType === 'bg-default' ? logoWhite : logo" class="navbar-brand-img h-100" alt="main_logo" />
+        <img src="./assets/logo.png" class="navbar-brand-img h-100" alt="main_logo" />
         <span class="ms-2 font-weight-bold me-2">TradeCraft.eth</span>
       </router-link>
     </div>
@@ -14,8 +14,6 @@
 </template>
 <script>
 import SidenavList from './SidenavList.vue'
-import logo from '@/assets/img/logo-ct-dark.png'
-import logoWhite from '@/assets/img/logo-ct.png'
 
 export default {
   name: 'index',
@@ -23,10 +21,7 @@ export default {
     SidenavList
   },
   data() {
-    return {
-      logo,
-      logoWhite
-    }
+    return {}
   },
   props: ['custom_class', 'layout']
 }

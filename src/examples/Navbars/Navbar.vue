@@ -5,7 +5,7 @@
         <breadcrumbs :currentPage="currentRouteName" textWhite="text-white" />
         <div class="pe-md-3 d-flex align-items-center ms-md-auto"></div>
         <ul class="navbar-nav justify-content-end">
-          <ConnectWalletButton address="{{ walletStore.address }}" id="connectButton" :txnCount="0" :dark="false" @click="connect" class="" />
+          <ConnectWalletButton :address="address" id="connectButton" :txnCount="0" :dark="false" @click="connect" class="" />
         </ul>
       </div>
     </div>
@@ -17,6 +17,8 @@ import { ref, onMounted } from 'vue'
 import Breadcrumbs from '../Breadcrumbs.vue'
 import { ConnectWalletButton, useMetaMaskWallet } from 'vue-connect-wallet'
 import { useWalletStore } from '../../store/WalletStore.js'
+import { toast } from 'vue3-toastify'
+import 'vue3-toastify/dist/index.css'
 
 export default {
   name: 'navbar',
@@ -27,30 +29,37 @@ export default {
   setup() {
     const walletStore = useWalletStore()
     const wallet = useMetaMaskWallet()
-    const address = ref(null)
+    const address = ref('0x00')
 
     wallet.onAccountsChanged((accounts) => {
-      console.log('account changed to: ', accounts[0])
-      walletStore.address = accounts[0];
+      const a = accounts[0]
+      console.log('on account changed to: ', a)
+      walletStore.address = a
+      address.value = a
     })
 
     wallet.onChainChanged((chainId) => {
-      console.log('chain changed to:', chainId);
+      console.log('chain changed to:', chainId)
     })
 
     const connect = async () => {
       const accounts = await wallet.connect()
       if (typeof accounts === 'string') {
-        console.log('An error occurred' + accounts);
+        console.log('An error occurred' + accounts)
       } else {
-        console.log(accounts);
-        walletStore.address = accounts[0];
+        const a = accounts[0]
+        console.log('connect to: ', a)
+        walletStore.address = a
+        address.value = a
+        toast.dark('Wallet Connected: ' + a, {
+          autoClose: 3000
+        })
       }
     }
 
     const switchAccount = async () => {
-      await wallet.switchAccounts();
-      connect();
+      await wallet.switchAccounts()
+      connect()
     }
 
     const isConnected = async () => {
@@ -58,22 +67,21 @@ export default {
       walletStore.connected = typeof accounts !== 'string' && accounts.length > 0
     }
 
-    onMounted(() => {
-      // Any required onMounted logic
-    })
+    onMounted(() => {})
 
-    return { address, connect, switchAccount, isConnected, walletStore }
+    return { address, connect, switchAccount, isConnected }
   },
   data() {
     return {
-      showMenu: true
+     
     }
   },
   methods: {
-    toggleSidebar() {}
+
   },
   computed: {
     currentRouteName() {
+      console.log('current route:  +', this.$route.name);
       return this.$route.name
     }
   }

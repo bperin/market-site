@@ -16,9 +16,8 @@
 import { ref, onMounted } from 'vue'
 import Breadcrumbs from '../Breadcrumbs.vue'
 import { ConnectWalletButton, useMetaMaskWallet } from 'vue-connect-wallet'
-import { useWalletStore } from '../../store/WalletStore.js'
+import { useAuthStore } from '../../store/AuthStore.js'
 import { toast } from 'vue3-toastify'
-import 'vue3-toastify/dist/index.css'
 
 export default {
   name: 'navbar',
@@ -27,61 +26,21 @@ export default {
     ConnectWalletButton
   },
   setup() {
-    const walletStore = useWalletStore()
+    const authStore = useAuthStore()
     const wallet = useMetaMaskWallet()
     const address = ref('0x00')
 
-    wallet.onAccountsChanged((accounts) => {
-      const a = accounts[0]
-      console.log('on account changed to: ', a)
-      walletStore.address = a
-      address.value = a
-    })
+    return {authStore, wallet, address}
 
-    wallet.onChainChanged((chainId) => {
-      console.log('chain changed to:', chainId)
-    })
-
-    const connect = async () => {
-      const accounts = await wallet.connect()
-      if (typeof accounts === 'string') {
-        console.log('An error occurred' + accounts)
-      } else {
-        const a = accounts[0]
-        console.log('connect to: ', a)
-        walletStore.address = a
-        address.value = a
-        toast.dark('Wallet Connected: ' + a, {
-          autoClose: 3000
-        })
-      }
-    }
-
-    const switchAccount = async () => {
-      await wallet.switchAccounts()
-      connect()
-    }
-
-    const isConnected = async () => {
-      const accounts = await wallet.getAccounts()
-      walletStore.connected = typeof accounts !== 'string' && accounts.length > 0
-    }
-
-    onMounted(() => {})
-
-    return { address, connect, switchAccount, isConnected }
+    
   },
   data() {
-    return {
-     
-    }
+    return {}
   },
-  methods: {
-
-  },
+  methods: {},
   computed: {
     currentRouteName() {
-      console.log('current route:  +', this.$route.name);
+      console.log('current route:  +', this.$route.name)
       return this.$route.name
     }
   }

@@ -3,7 +3,7 @@
     <div class="sidenav-header">
       <router-link class="m-0 navbar-brand" to="/">
         <h4>TradeCraft.eth</h4>
-      </router-link>
+      </router-link>  
     </div>
     <hr class="mt-0 horizontal dark" />
     <sidenav-list :cardBg="custom_class" />

@@ -1,8 +1,10 @@
 import { defineStore } from 'pinia'
 
-export const useKeyStore = defineStore('keyStore', {
+export const useProductStore = defineStore('productStore', {
   state: () => ({
-    publicKey: null,
-    privateKey: null,
+      products :[{
+        name: "First product name",
+        description : "First product descritptio"
+      }]
   })
 })

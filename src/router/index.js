@@ -5,6 +5,7 @@ import Billing from '../views/Billing.vue'
 import Profile from '../views/Profile.vue'
 import Signup from '../views/Signup.vue'
 import Signin from '../views/Signin.vue'
+import Keygenertor from '../views/Keygenerator.vue'
 
 const routes = [
   {
@@ -13,9 +14,9 @@ const routes = [
     component: Dashboard
   },
   {
-    path: '/dashboard-default',
-    name: '/Dashboard',
-    component: Dashboard
+    path: '/keygenerator',
+    name: 'Keygenertor',
+    component: Keygenertor
   },
   {
     path: '/tables',
@@ -27,6 +28,7 @@ const routes = [
     name: 'Billing',
     component: Billing
   },
+
   {
     path: '/profile',
     name: 'Profile',

@@ -1,0 +1,1011 @@
+/* --------------------------------
+
+Generated using nucleoapp.com
+
+-------------------------------- */
+.icon {
+    display: inline-block;
+    background-image: url(../icons.svg);
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.icon.xmark-2 {
+    background-position: -0px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.window-expand-bottom-right-2 {
+    background-position: -18px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.trash-2 {
+    background-position: -36px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.triangle-warning-2 {
+    background-position: -54px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.toggle-3-2 {
+    background-position: -72px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.tasks-2-2 {
+    background-position: -90px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.stack-perspective-2 {
+    background-position: -108px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.square-plus-2 {
+    background-position: -126px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.square-minus-2 {
+    background-position: -144px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.square-dotted-arrow-bottom-right-2 {
+    background-position: -162px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.sliders-2 {
+    background-position: -180px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.progress-bar-2 {
+    background-position: -198px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.plus-2 {
+    background-position: -216px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.minus-2 {
+    background-position: -234px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.loader-2 {
+    background-position: -252px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.layers-3-2 {
+    background-position: -270px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.grid-circle-plus-2 {
+    background-position: -288px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.gear-2-2 {
+    background-position: -306px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.gauge-3-2 {
+    background-position: -324px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.eye-open-2 {
+    background-position: -342px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.eye-closed-2 {
+    background-position: -360px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.circle-info-2 {
+    background-position: -378px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.circle-half-dotted-check-2 {
+    background-position: -396px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.check-2 {
+    background-position: -414px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.anchor-2 {
+    background-position: -432px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.xmark {
+    background-position: -450px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.window-expand-bottom-right {
+    background-position: -468px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.triangle-warning {
+    background-position: -486px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.trash {
+    background-position: -504px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.toggle-3 {
+    background-position: -522px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.tasks-2 {
+    background-position: -540px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.stack-perspective {
+    background-position: -558px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.square-plus {
+    background-position: -576px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.square-minus {
+    background-position: -594px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.square-dotted-arrow-bottom-right {
+    background-position: -612px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.sliders {
+    background-position: -630px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.progress-bar {
+    background-position: -648px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.plus {
+    background-position: -666px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.minus {
+    background-position: -684px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.loader {
+    background-position: -702px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.layers-3 {
+    background-position: -720px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.grid-circle-plus {
+    background-position: -738px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.gear-2 {
+    background-position: -756px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.gauge-3 {
+    background-position: -774px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.eye-open {
+    background-position: -792px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.eye-closed {
+    background-position: -810px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.circle-half-dotted-check {
+    background-position: -828px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.circle-info {
+    background-position: -846px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.check {
+    background-position: -864px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.anchor {
+    background-position: -882px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.dark-light-2 {
+    background-position: -900px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.dark-light {
+    background-position: -918px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.tv {
+    background-position: -936px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.wallet-2-2 {
+    background-position: -954px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.vault-3-2 {
+    background-position: -972px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.target-2 {
+    background-position: -990px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.suitcase-3-2 {
+    background-position: -1008px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.sitemap-4-2 {
+    background-position: -1026px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.scale-2 {
+    background-position: -1044px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.puzzle-piece-2 {
+    background-position: -1062px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.presentation-screen-2 {
+    background-position: -1080px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.nodes-2 {
+    background-position: -1098px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.money-bill-coin-2 {
+    background-position: -1116px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.lightbulb-3-2 {
+    background-position: -1134px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.handshake-2 {
+    background-position: -1152px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.globe-pointer-2 {
+    background-position: -1170px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.gas-pump-2 {
+    background-position: -1188px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.credit-card-2 {
+    background-position: -1206px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.cryptography-2 {
+    background-position: -1224px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.chair-4-2 {
+    background-position: -1242px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.award-certificate-2 {
+    background-position: -1260px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.award-2 {
+    background-position: -1278px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.window-chart-line {
+    background-position: -1296px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.wallet-2 {
+    background-position: -1314px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.vault-3 {
+    background-position: -1332px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.target {
+    background-position: -1350px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.suitcase-3 {
+    background-position: -1368px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.sitemap-4 {
+    background-position: -1386px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.scale {
+    background-position: -1404px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.puzzle-piece {
+    background-position: -1422px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.presentation-screen {
+    background-position: -1440px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.nodes {
+    background-position: -1458px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.money-bill-coin {
+    background-position: -1476px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.lightbulb-3 {
+    background-position: -1494px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.handshake {
+    background-position: -1512px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.globe-pointer {
+    background-position: -1530px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.cryptography {
+    background-position: -1548px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.gas-pump {
+    background-position: -1566px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.credit-card {
+    background-position: -1584px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.chair-4 {
+    background-position: -1602px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.award {
+    background-position: -1620px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.award-certificate {
+    background-position: -1638px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.window-pointer {
+    background-position: -1656px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.wand-sparkle {
+    background-position: -1674px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.sticker-smile {
+    background-position: -1692px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.sparkle-3 {
+    background-position: -1710px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.shapes {
+    background-position: -1728px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.scribble {
+    background-position: -1746px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.scissors {
+    background-position: -1764px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.ruler-pen {
+    background-position: -1782px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+.icon.xmark-2:hover {
+    background-position: -1800px 0px;
+}
+
+.icon.window-expand-bottom-right-2:hover {
+    background-position: -1818px 0px;
+}
+
+.icon.trash-2:hover {
+    background-position: -1836px 0px;
+}
+
+.icon.triangle-warning-2:hover {
+    background-position: -1854px 0px;
+}
+
+.icon.toggle-3-2:hover {
+    background-position: -1872px 0px;
+}
+
+.icon.tasks-2-2:hover {
+    background-position: -1890px 0px;
+}
+
+.icon.stack-perspective-2:hover {
+    background-position: -1908px 0px;
+}
+
+.icon.square-plus-2:hover {
+    background-position: -1926px 0px;
+}
+
+.icon.square-minus-2:hover {
+    background-position: -1944px 0px;
+}
+
+.icon.square-dotted-arrow-bottom-right-2:hover {
+    background-position: -1962px 0px;
+}
+
+.icon.sliders-2:hover {
+    background-position: -1980px 0px;
+}
+
+.icon.progress-bar-2:hover {
+    background-position: -1998px 0px;
+}
+
+.icon.plus-2:hover {
+    background-position: -2016px 0px;
+}
+
+.icon.minus-2:hover {
+    background-position: -2034px 0px;
+}
+
+.icon.loader-2:hover {
+    background-position: -2052px 0px;
+}
+
+.icon.layers-3-2:hover {
+    background-position: -2070px 0px;
+}
+
+.icon.grid-circle-plus-2:hover {
+    background-position: -2088px 0px;
+}
+
+.icon.gear-2-2:hover {
+    background-position: -2106px 0px;
+}
+
+.icon.gauge-3-2:hover {
+    background-position: -2124px 0px;
+}
+
+.icon.eye-open-2:hover {
+    background-position: -2142px 0px;
+}
+
+.icon.eye-closed-2:hover {
+    background-position: -2160px 0px;
+}
+
+.icon.circle-info-2:hover {
+    background-position: -2178px 0px;
+}
+
+.icon.circle-half-dotted-check-2:hover {
+    background-position: -2196px 0px;
+}
+
+.icon.check-2:hover {
+    background-position: -2214px 0px;
+}
+
+.icon.anchor-2:hover {
+    background-position: -2232px 0px;
+}
+
+.icon.xmark:hover {
+    background-position: -2250px 0px;
+}
+
+.icon.window-expand-bottom-right:hover {
+    background-position: -2268px 0px;
+}
+
+.icon.triangle-warning:hover {
+    background-position: -2286px 0px;
+}
+
+.icon.trash:hover {
+    background-position: -2304px 0px;
+}
+
+.icon.toggle-3:hover {
+    background-position: -2322px 0px;
+}
+
+.icon.tasks-2:hover {
+    background-position: -2340px 0px;
+}
+
+.icon.stack-perspective:hover {
+    background-position: -2358px 0px;
+}
+
+.icon.square-plus:hover {
+    background-position: -2376px 0px;
+}
+
+.icon.square-minus:hover {
+    background-position: -2394px 0px;
+}
+
+.icon.square-dotted-arrow-bottom-right:hover {
+    background-position: -2412px 0px;
+}
+
+.icon.sliders:hover {
+    background-position: -2430px 0px;
+}
+
+.icon.progress-bar:hover {
+    background-position: -2448px 0px;
+}
+
+.icon.plus:hover {
+    background-position: -2466px 0px;
+}
+
+.icon.minus:hover {
+    background-position: -2484px 0px;
+}
+
+.icon.loader:hover {
+    background-position: -2502px 0px;
+}
+
+.icon.layers-3:hover {
+    background-position: -2520px 0px;
+}
+
+.icon.grid-circle-plus:hover {
+    background-position: -2538px 0px;
+}
+
+.icon.gear-2:hover {
+    background-position: -2556px 0px;
+}
+
+.icon.gauge-3:hover {
+    background-position: -2574px 0px;
+}
+
+.icon.eye-open:hover {
+    background-position: -2592px 0px;
+}
+
+.icon.eye-closed:hover {
+    background-position: -2610px 0px;
+}
+
+.icon.circle-half-dotted-check:hover {
+    background-position: -2628px 0px;
+}
+
+.icon.circle-info:hover {
+    background-position: -2646px 0px;
+}
+
+.icon.check:hover {
+    background-position: -2664px 0px;
+}
+
+.icon.anchor:hover {
+    background-position: -2682px 0px;
+}
+
+.icon.dark-light-2:hover {
+    background-position: -2700px 0px;
+}
+
+.icon.dark-light:hover {
+    background-position: -2718px 0px;
+}
+
+.icon.tv:hover {
+    background-position: -2736px 0px;
+}
+
+.icon.wallet-2-2:hover {
+    background-position: -2754px 0px;
+}
+
+.icon.vault-3-2:hover {
+    background-position: -2772px 0px;
+}
+
+.icon.target-2:hover {
+    background-position: -2790px 0px;
+}
+
+.icon.suitcase-3-2:hover {
+    background-position: -2808px 0px;
+}
+
+.icon.sitemap-4-2:hover {
+    background-position: -2826px 0px;
+}
+
+.icon.scale-2:hover {
+    background-position: -2844px 0px;
+}
+
+.icon.puzzle-piece-2:hover {
+    background-position: -2862px 0px;
+}
+
+.icon.presentation-screen-2:hover {
+    background-position: -2880px 0px;
+}
+
+.icon.nodes-2:hover {
+    background-position: -2898px 0px;
+}
+
+.icon.money-bill-coin-2:hover {
+    background-position: -2916px 0px;
+}
+
+.icon.lightbulb-3-2:hover {
+    background-position: -2934px 0px;
+}
+
+.icon.handshake-2:hover {
+    background-position: -2952px 0px;
+}
+
+.icon.globe-pointer-2:hover {
+    background-position: -2970px 0px;
+}
+
+.icon.gas-pump-2:hover {
+    background-position: -2988px 0px;
+}
+
+.icon.credit-card-2:hover {
+    background-position: -3006px 0px;
+}
+
+.icon.cryptography-2:hover {
+    background-position: -3024px 0px;
+}
+
+.icon.chair-4-2:hover {
+    background-position: -3042px 0px;
+}
+
+.icon.award-certificate-2:hover {
+    background-position: -3060px 0px;
+}
+
+.icon.award-2:hover {
+    background-position: -3078px 0px;
+}
+
+.icon.window-chart-line:hover {
+    background-position: -3096px 0px;
+}
+
+.icon.wallet-2:hover {
+    background-position: -3114px 0px;
+}
+
+.icon.vault-3:hover {
+    background-position: -3132px 0px;
+}
+
+.icon.target:hover {
+    background-position: -3150px 0px;
+}
+
+.icon.suitcase-3:hover {
+    background-position: -3168px 0px;
+}
+
+.icon.sitemap-4:hover {
+    background-position: -3186px 0px;
+}
+
+.icon.scale:hover {
+    background-position: -3204px 0px;
+}
+
+.icon.puzzle-piece:hover {
+    background-position: -3222px 0px;
+}
+
+.icon.presentation-screen:hover {
+    background-position: -3240px 0px;
+}
+
+.icon.nodes:hover {
+    background-position: -3258px 0px;
+}
+
+.icon.money-bill-coin:hover {
+    background-position: -3276px 0px;
+}
+
+.icon.lightbulb-3:hover {
+    background-position: -3294px 0px;
+}
+
+.icon.handshake:hover {
+    background-position: -3312px 0px;
+}
+
+.icon.globe-pointer:hover {
+    background-position: -3330px 0px;
+}
+
+.icon.cryptography:hover {
+    background-position: -3348px 0px;
+}
+
+.icon.gas-pump:hover {
+    background-position: -3366px 0px;
+}
+
+.icon.credit-card:hover {
+    background-position: -3384px 0px;
+}
+
+.icon.chair-4:hover {
+    background-position: -3402px 0px;
+}
+
+.icon.award:hover {
+    background-position: -3420px 0px;
+}
+
+.icon.award-certificate:hover {
+    background-position: -3438px 0px;
+}
+
+.icon.window-pointer:hover {
+    background-position: -3456px 0px;
+}
+
+.icon.wand-sparkle:hover {
+    background-position: -3474px 0px;
+}
+
+.icon.sticker-smile:hover {
+    background-position: -3492px 0px;
+}
+
+.icon.sparkle-3:hover {
+    background-position: -3510px 0px;
+}
+
+.icon.shapes:hover {
+    background-position: -3528px 0px;
+}
+
+.icon.scribble:hover {
+    background-position: -3546px 0px;
+}
+
+.icon.scissors:hover {
+    background-position: -3564px 0px;
+}
+
+.icon.ruler-pen:hover {
+    background-position: -3582px 0px;
+} 

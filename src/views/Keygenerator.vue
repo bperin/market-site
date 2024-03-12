@@ -64,3 +64,4 @@ export default {
   }
 }
 </script>
+../store/KeyStore.js

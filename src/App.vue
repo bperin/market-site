@@ -3,11 +3,12 @@
   <sidenav class="fixed-start" />
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
     <!-- nav -->
-    <navbar :class="[navClasses]" :textWhite="true ? 'text-white opacity-8' : 'text-white'" :minNav="navbarMinimize" v-if="true" />
+    <navbar class="text-white opacity-8 position-sticky bg-default left-auto top-2 z-index-sticky" :minNav="navbarMinimize" />
     <router-view />
-    <app-footer v-show="true" />
+    <app-footer />
   </main>
 </template>
+
 <script>
 import Sidenav from '@/examples/Sidenav/index.vue'
 import Navbar from '@/examples/Navbars/Navbar.vue'
@@ -21,16 +22,13 @@ export default {
     Navbar,
     AppFooter
   },
-  methods: {},
-  computed: {
-    navClasses() {
-      return {
-        'position-sticky bg-default left-auto top-2 z-index-sticky': true
-      }
-    }
-  },
   beforeMount() {
     activateDarkMode()
   }
 }
 </script>
+
+<!-- Add "scoped" if these styles are specific to App.vue -->
+<style>
+/* Your CSS here */
+</style>

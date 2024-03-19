@@ -16,7 +16,7 @@
 import { ref, onMounted } from 'vue'
 import Breadcrumbs from '../Breadcrumbs.vue'
 import { ConnectWalletButton, useMetaMaskWallet } from 'vue-connect-wallet'
-import { useAuthStore } from '../../store/AuthStore.js'
+import { useEthereumStore, useEthereumStore } from '@/store/EthereumStore'
 import { toast } from 'vue3-toastify'
 
 export default {
@@ -26,11 +26,11 @@ export default {
     ConnectWalletButton
   },
   setup() {
-    const authStore = useAuthStore()
+    const useEthereumStore = useEthereumStore()
     const wallet = useMetaMaskWallet()
     const address = ref('0x00')
 
-    return {authStore, wallet, address}
+    return {useEthereumStore, wallet, address}
 
     
   },
@@ -46,4 +46,3 @@ export default {
   }
 }
 </script>
-../../store/KeyStore.js

@@ -64,4 +64,4 @@ export default {
   }
 }
 </script>
-../store/KeyStore.js
+../store/KeyStore.js../../utils/encrypt.js

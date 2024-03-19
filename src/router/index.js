@@ -1,20 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Dashboard from '../views/Dashboard.vue'
-import Signin from '../views/Signin.vue'
-import Keygenerator from '../views/Keygenerator.vue'
-import Users from '../views/Users.vue'
-import Vendors from '../views/Vendors.vue'
-import Affiliates from '../views/Affiliates.vue'
-import UserAbout from '../views/UserAbout.vue'
-import VendorAbout from '../views/VendorAbout.vue'
-import AffiliateAbout from '../views/AffiliateAbout.vue'
-import UserProfile from '../views/UserProfile.vue' // Assuming you have a UserProfile component
 
 const routes = [
   {
     path: '/',
     name: 'Dashboard',
-    component: Dashboard
+    component: () => import('../views/routes/Dashboard.vue')
   },
   {
     path: '/keygenerator',
